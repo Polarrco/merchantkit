@@ -1,3 +1,6 @@
+
+import Foundation
+
 /// Sends a request to the iTunes server for validation.
 /// Attempts to make a validated receipt from the response and calls `onCompletion` when finished.
 public final class ServerReceiptValidator : ReceiptValidator {

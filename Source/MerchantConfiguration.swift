@@ -1,3 +1,6 @@
+
+import Foundation
+
 extension Merchant {
     public struct Configuration {
         public let receiptValidator: ReceiptValidator

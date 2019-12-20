@@ -1,3 +1,6 @@
+
+import Foundation
+
 internal enum MerchantKitFatalError {
     internal typealias FatalErrorHandler = () -> Void
     

@@ -1,3 +1,6 @@
+
+import Foundation
+
 public protocol ReceiptValidator {
     var subscriptionRenewalLeeway: ReceiptValidatorSubscriptionRenewalLeeway { get }
     

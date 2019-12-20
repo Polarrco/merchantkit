@@ -1,3 +1,6 @@
+
+import Foundation
+
 public final class KeychainPurchaseStorage : PurchaseStorage {
     private let serviceName: String
     private let accessGroup: String?

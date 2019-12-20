@@ -1,3 +1,6 @@
+
+import Foundation
+
 /// A collection of unique `Purchase` objects. This set is vended by an `AvailablePurchasesTask`.
 public struct PurchaseSet : Equatable {
     private let storage: [String : Purchase]
